@@ -10,7 +10,7 @@ const Video = React.lazy(() => import('../pages/Video/Video'));
 export default (
   <Suspense fallback={<p>Loading...</p>}>
     <Switch>
-      <Route path="/region" component={Regions} />
+      <Route path="/regions" component={Regions} />
       <Route path="/tv" component={Tv} />
       <Route path="/video" component={Video} />
       <Route path="/news" exact component={News} />
