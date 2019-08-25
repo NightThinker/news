@@ -1,10 +1,17 @@
 import React from 'react';
 
+import news from '../../data/news.json';
+import { NewsStyle } from './NewsStyle';
+import Card from '../../components/Card/Card';
+
 function News() {
   return (
-    <React.Fragment>
-      <h1>News</h1>
-    </React.Fragment>
+    <NewsStyle>
+      {news.map((item) => (
+        <Card />
+        // <h1>{item.title}</h1>
+      ))}
+    </NewsStyle>
   );
 }
 
