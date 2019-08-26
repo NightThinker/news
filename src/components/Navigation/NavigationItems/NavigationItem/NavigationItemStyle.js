@@ -6,6 +6,9 @@ export const NavigationItemStyle = styled.li`
   display: block;
   width: 100%;
   a {
+    border-right: 2px solid #008c8c;
+    font-size: 1.2rem;
+    font-weight: 700;
     color: #26333e;
     text-decoration: none;
     width: 100%;
@@ -14,7 +17,7 @@ export const NavigationItemStyle = styled.li`
     &:hover,
     &:active,
     &.active {
-      color: #40a4c8;
+      color: #008c8c;
     }
   }
   @media (min-width: 500px) {
@@ -33,8 +36,8 @@ export const NavigationItemStyle = styled.li`
       &:hover,
       &:active,
       &.active {
-        background-color: #26333e;
-        border-bottom: 4px solid #40a4c8;
+        background-color: #008c8c;
+        /* border-bottom: 4px solid #40a4c8; */
         color: white;
       }
     }

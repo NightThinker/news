@@ -1,17 +1,14 @@
 import styled from 'styled-components';
 
+export const ContainerStyle = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
 export const NewsStyle = styled.ul`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 20px;
+  grid-column-gap: 40px;
   grid-row-gap: 45px;
+  padding-bottom: 45px;
 `;
-
-// export const NewsStyle = styled.div`
-//   background-color: #FFF;
-//   box-sizing: border-box;
-//   border-radius: 5px;
-//   img {
-//     height: 100%;
-//   }
-// `;

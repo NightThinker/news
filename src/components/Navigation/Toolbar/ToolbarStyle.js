@@ -27,7 +27,7 @@ export const LogoStyle = styled.div`
 
 export const NavStyle = styled.nav`
   margin-left: 80px;
-  background: red;
+  background: #1eaaaa;
   width: 100%;
   height: 50px;
   @media (max-width: 499px) {
