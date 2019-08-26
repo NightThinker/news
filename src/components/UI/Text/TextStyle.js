@@ -15,6 +15,7 @@ import {
   Gray70Color,
   Gray50Color,
   Gray30Color,
+  GreenColor,
   MarginPadding
 } from '../../../styles/Styles';
 
@@ -76,6 +77,10 @@ export const TextStyle = styled.span`
       case 'gray30':
         return css`
           color: ${Gray30Color};
+        `;
+      case 'green':
+        return css`
+          color: ${GreenColor};
         `;
 
       default:

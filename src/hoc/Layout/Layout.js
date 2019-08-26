@@ -1,5 +1,7 @@
 import React from 'react';
+
 import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
+import Footer from '../../components/Footer/Footer';
 import { MainStyle } from './LayoutStyle';
 
 function Layout(props) {
@@ -7,6 +9,7 @@ function Layout(props) {
     <React.Fragment>
       <Toolbar />
       <MainStyle>{props.children}</MainStyle>
+      <Footer />
     </React.Fragment>
   );
 }

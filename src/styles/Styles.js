@@ -16,6 +16,7 @@ export const Gray70Color = '#333333';
 export const Gray50Color = '#999999';
 export const Gray30Color = '#bbbbbb';
 export const Gray10Color = '#eeeeee';
+export const GreenColor = '#008c8c';
 
 // Button color
 export const RedGdColor = `linear-gradient(90deg, #A71B1A 0%, #EE2524 100%);`;
